@@ -1,5 +1,7 @@
 import psutil
 
+#Find out what is using the most CPU power and print it out
+
 cpu_count = psutil.cpu_count()
 
 with open('core_monitor.csv', 'w') as f:
