@@ -2,8 +2,6 @@ import pandas as pd
 import os
 import psutil
 
-#var = os.system("/proc/cpuinfo | grep 'cpu MHz'")
-
 cpu_count = psutil.cpu_count()
 
 with open('core_monitor.csv', 'w') as f:
