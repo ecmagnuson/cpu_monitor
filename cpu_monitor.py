@@ -1,5 +1,3 @@
-import pandas as pd
-import os
 import psutil
 
 cpu_count = psutil.cpu_count()
